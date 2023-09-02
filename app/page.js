@@ -36,7 +36,7 @@ const page = () => {
     copyTask.splice(id, 1);
     setMainTask(copyTask);
 
-    // Save the updated tasks to localStorage
+    // Save the updated tasks to localStorage.
     localStorage.setItem("tasks", JSON.stringify(copyTask));
     handleButtonClick();
   };
