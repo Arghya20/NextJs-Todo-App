@@ -38,6 +38,7 @@ const page = () => {
 
     // Save the updated tasks to localStorage
     localStorage.setItem("tasks", JSON.stringify(copyTask));
+    handleButtonClick();
   };
 
   return (
@@ -87,7 +88,7 @@ const page = () => {
               <div className="flex justify-end ">
                 <span
                   className="cursor-pointer p-2 rounded-full hover:bg-white "
-                  onClick={(handleButtonClick, () => deleteTask(id))}
+                  onClick={() => deleteTask(id)}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
