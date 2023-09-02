@@ -87,7 +87,7 @@ const page = () => {
               <div className="flex justify-end ">
                 <span
                   className="cursor-pointer p-2 rounded-full hover:bg-white "
-                  onClick={(() => deleteTask(id), handleButtonClick)}
+                  onClick={(handleButtonClick, () => deleteTask(id))}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
