@@ -27,7 +27,7 @@ const page = () => {
     setTitle("");
     setDescription("");
 
-    // Save the updated tasks to localStorage
+    // Save the updated tasks to localStorage.
     localStorage.setItem("tasks", JSON.stringify(updatedTasks));
   };
 
@@ -44,7 +44,7 @@ const page = () => {
   return (
     <div>
       <h2 className="bg-gray-800 p-8 text-white font-bold text-4xl text-center">
-        Todo-App
+        Task-Master
       </h2>
       <div className="flex justify-center">
         <form
