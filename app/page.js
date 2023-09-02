@@ -44,7 +44,7 @@ const page = () => {
   return (
     <div>
       <h2 className="bg-gray-800 p-8 text-white font-bold text-4xl text-center">
-        Task-Master
+        Task-Master 
       </h2>
       <div className="flex justify-center">
         <form
